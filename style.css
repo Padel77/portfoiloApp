@@ -16,7 +16,7 @@ body{
 }
 .header .slider .info {
     margin: 0px;
-    background-image: url('../image/3.jpg');
+    background-image: url('3.jpg');
     background-size: cover;
     padding: 300px 0 0 180px ;    
     height: 330px;
