@@ -321,7 +321,7 @@ table {
 	padding:0;
 }
 .inner {
-	padding-top: 138px;
+	/*padding-top: 138px;*/
 }
 /* ==========================================================================Navigation========================================================================== */
 .menu-wrap a {
@@ -455,7 +455,7 @@ table {
 .hero {
 	background: url('../img/ad.jpg') right bottom no-repeat;
 	background-size: contain;
-	padding:110px 0 100px 0;
+	padding:120px 0 5px 0;
 	height:auto;
 	background-color: #FBFBFB;
 }
@@ -1116,7 +1116,7 @@ ul.slides li {
 	}
 
 	.hero h1 {
-		font-size: 100px;
+		font-size: 60px;
 		line-height: 80px;
 		margin-top: 65px;
 }
@@ -1188,14 +1188,13 @@ ul.slides li {
 /** Responsive fixes **/
 @media screen and (max-width:767px) {
 	.inner {
-    padding-top: 10px;
+		padding-top: 30px;
     text-align: center;
 	}
 
 	.hero h3 {
 	    letter-spacing: 10px;
 	}
-
 
 	.hero {
 	    padding-bottom: 0;
