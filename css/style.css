@@ -458,6 +458,7 @@ table {
 	padding:120px 0 5px 0;
 	height:auto;
 	background-color: #FBFBFB;
+
 }
 .hero h1 {
 	font-size: 120px;
@@ -466,9 +467,11 @@ table {
 	font-weight: 600;
 	line-height: 95px;
 	text-transform: uppercase;
+	margin-top: 0px !important;
 }
 .hero h1 span {
 	color:#a1a9b0;
+
 	/* display:inline-block; */
 }
 .hero h3 {
@@ -1119,8 +1122,10 @@ ul.slides li {
 		font-size: 60px;
 		line-height: 80px;
 		margin-top: 65px;
+
 }
-}
+
+
 /* 480px (WVGA - Low End Windows Phone) */
 @media screen and (max-width:480px) {
 	.wrapper {
@@ -1135,6 +1140,9 @@ ul.slides li {
 	}
 	.wp2,.wp4,.wp5,.light-box {
 		margin-bottom: 30px;
+	}
+	.hero h1 span{
+padding-top: 200px;
 	}
 }
 /* xGA iPad */
